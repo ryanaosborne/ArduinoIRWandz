@@ -28,6 +28,7 @@ Open the WiiWandz.sln and compile the program
 You will need to create a "Config.ini" file that is located within the same directory that the WiiWandz.exe file is executing from. You 
 can edit the Config file to preload the COM port you want to communicate with and which spells you want to activate
     
-This program uses a connected microphone to your computer to send on/off commands for the "Lumos" and "Nox" commands. The microphone is
-required at boot of the program. This can be toggled on and off via the Config.ini file by setting the "speachRec" line to "true" or "false".
+This program uses a connected microphone to your computer to send on/off commands to the connected Arduino for the "Lumos" and "Nox"
+commands. The microphone is required at boot of the program. This can be toggled on and off via the Config.ini file by setting the
+"speachRec" line to "true" or "false".
  
