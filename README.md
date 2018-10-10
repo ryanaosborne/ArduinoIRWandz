@@ -25,10 +25,9 @@ Upload the "Arduino_i2cReader.ino" scetch to your Arduino UNO board
 
 Running the program for the first time:
 Open the WiiWandz.sln and compile the program
-You will need to create a "Config.ini" file that is located within the same directory that the WiiWandz.exe file is executing from
-    You can edit the Config file to preload the COM port you want to communicate with and which spells you want to activate
+You will need to create a "Config.ini" file that is located within the same directory that the WiiWandz.exe file is executing from. You 
+can edit the Config file to preload the COM port you want to communicate with and which spells you want to activate
     
-    
-This program currently requires having a microphone plugged into the computer as it uses speach recognition to send the "Lumos" and 
-"Nox" commands to control a set of lights. This will be a feature that can be enabled or disabled via the config file in an upcoming 
-version of this program.     
+This program uses a connected microphone to your computer to send on/off commands for the "Lumos" and "Nox" commands. The microphone is
+required at boot of the program. This can be toggled on and off via the Config.ini file by setting the "speachRec" line to "true" or "false".
+ 
