@@ -13,7 +13,7 @@ I2C IR Tracking Camera: https://www.robotshop.com/en/ir-tracking-camera.html
    (This camera is the same camera/sensor that is found in the Original/Non-generic WiiMotes. Some people have successfully removed them 
    from the Wiimote and gotten them to work over I2C. This could be a viable way of getting an IR Tracker but that is not, and will 
    not be explored for this project.)
-IR light sorce: Make your own or purchase an array such as this one: http://a.co/d/1pGBUIg
+IR light source: Make your own or purchase an array such as this one: http://a.co/d/1pGBUIg
 Interactive Wand (or alternative IR source for testing IR sensor)
 
 Instructions:
