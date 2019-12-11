@@ -5,6 +5,12 @@ This project was heavily inspired and produced thanks to the work already done b
 it, is "A project for tracking infrared inputs from a Wiimote, and triggering a signal when specific movements are detected" and his 
 original project can be found here: https://github.com/bigokro/wiiwandz
 
+Building off of what he made this new version allows you to remove latency from his oringinal project by getting rid of any wireless transmissions (bluetooth and IFTTT). I removed the bluetooth latency by introducing an i2c IR sensor (same one found in the WiiRemote)
+controlled through and Arduino UNO and passed to this program via serial ports. That same Arduino UNO was used to remove the IFTTT 
+latency by retransmitting our spell command. This method would allow you to use simple relays to create "magic."
+
+I also added the ability to use voice controls for spell commands rather than rely solely on movement of the IR source. 
+
 Parts needed:
 
 Windows Computer with available USB port
