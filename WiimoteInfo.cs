@@ -300,8 +300,8 @@ namespace WiiWandz
             int yy = int.TryParse(message[3], out yy) ? yy : 700;
             int xxx = int.TryParse(message[4], out xxx) ? xxx : 1023;
             int yyy = int.TryParse(message[5], out yyy) ? yyy : 700;
-            int xxxx = int.TryParse(message[4], out xxxx) ? xxxx : 1023;
-            int yyyy = int.TryParse(message[5], out yyyy) ? yyyy : 700;
+            int xxxx = int.TryParse(message[6], out xxxx) ? xxxx : 1023;
+            int yyyy = int.TryParse(message[7], out yyyy) ? yyyy : 700;
 
             tbData.AppendText(openStr);
             tbData.ScrollToCaret();
