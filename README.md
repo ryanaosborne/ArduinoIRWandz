@@ -13,7 +13,7 @@ Parts needed:
 
 Windows Computer with available USB port
 Arduino UNO
-I2C IR Tracking Camera: https://www.robotshop.com/en/ir-tracking-camera.html 
+I2C IR Tracking Camera: https://www.robotshop.com/en/ir-tracking-camera.html or https://www.dfrobot.com/product-1088.html
    (This camera is the same camera/sensor that is found in the Original/Non-generic WiiMotes. Some people have successfully removed them 
    from the Wiimote and gotten them to work over I2C. This could be a viable way of getting an IR Tracker but that is not, and will 
    not be explored for this project.)
@@ -24,7 +24,7 @@ Instructions:
 
 Setting up the Arduino:
 Wire the I2C IR tracking camera up to the Arduino UNO as pictured here: 
-https://www.dfrobot.com/wiki/images/9/9a/Positioning_ir_camera_connection_diagram_1500.jpg
+https://raw.githubusercontent.com/DFRobot/DFRobotMediaWikiImage/master/Image/Positioning_ir_camera_connection_diagram_1500.jpg
 Upload the "Arduino_i2cReader.ino" scetch to your Arduino UNO board
 
 Running the program for the first time:
